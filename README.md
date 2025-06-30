@@ -1,4 +1,5 @@
 🧠 Face Recognition Attendance System
+
 This project is a real-time face recognition system built using Python, OpenCV, and the face_recognition library. It captures video from a webcam, detects faces in the frame, and identifies them by comparing with a set of known face encodings. Recognized faces are labeled on the screen, and their presence is logged with timestamps. Unrecognized faces are saved as images for future reference. The system is lightweight, efficient, and can be extended for use in attendance tracking, access control, or smart surveillance applications.
 
 ✨ Features
@@ -60,6 +61,8 @@ Display the video feed with real-time annotations.
 
 Exit the program by pressing the q key.
 
+Run the program with:
+
 python face_recognition.py
 Make sure your known face image (e.g., photo (1).jpg) is in the same folder or update the path in the script.
 
@@ -85,4 +88,5 @@ Face registration from webcam
 
 🙋‍♂️ Author
 Arya Kant Pathak
+
 Feel free to fork this project, suggest improvements, or use it in your own applications!
